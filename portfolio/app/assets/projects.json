@@ -3,17 +3,30 @@
     {
       "title": "SoR RAG chatbot",
       "description": "A personalized AI chatbot for the Sunrise of the Reaping book built for my gf.",
-      "imageUrl": "placerholder.svg"
+      "imageUrl": "placerholder.svg",
+      "link": "https://github.com/olvard/sor-rag-chat",
+      "tags": ["RAG", "React.js", "Next.js", "DataStax"]
     },
     {
       "title": "Facemorph",
       "description": "Facemorphing using Generative Adversarial Networks(GANs)",
-      "imageUrl": "placerholder.svg"
+      "imageUrl": "placerholder.svg",
+      "link": "https://github.com/olvard/facemorph",
+      "tags": ["Generative AI", "GAN", "Python"]
     },
     {
       "title": "Fractal Explorer",
       "description": "Fractal exploration tool using WebGL ",
-      "imageUrl": "placerholder.svg"
+      "imageUrl": "placerholder.svg",
+      "link": "https://github.com/olvard/fractals",
+      "tags": ["WebGL", "JavaScript", "GLSL"]
+    },
+    {
+      "title": "Monte-Carlo Raytracing",
+      "description": "The project applies Monte Carlo integration and ray-tracing techniques to calculate complex light interactions within a 3D scene.",
+      "imageUrl": "placerholder.svg",
+      "link": "https://github.com/olvard/raytracing",
+      "tags": ["C++", "Linear Algebra", "OOP"]
     }
   ]
 }
