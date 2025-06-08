@@ -1,0 +1,19 @@
+{
+  "projects": [
+    {
+      "title": "SoR RAG chatbot",
+      "description": "A personalized AI chatbot for the Sunrise of the Reaping book built for my gf.",
+      "imageUrl": "placerholder.svg"
+    },
+    {
+      "title": "Facemorph",
+      "description": "Facemorphing using Generative Adversarial Networks(GANs)",
+      "imageUrl": "placerholder.svg"
+    },
+    {
+      "title": "Fractal Explorer",
+      "description": "Fractal exploration tool using WebGL ",
+      "imageUrl": "placerholder.svg"
+    }
+  ]
+}
