@@ -1,9 +1,9 @@
 {
   "projects": [
     {
-      "title": "SoR RAG chatbot",
+      "title": "Retrieval Augmented Generation Chatbot",
       "description": "A personalized AI chatbot for the Sunrise of the Reaping book built for my gf.",
-      "imageUrl": "placerholder.svg",
+      "imageUrl": "https://raw.githubusercontent.com/olvard/sor-rag-chat/refs/heads/main/home.png",
       "link": "https://github.com/olvard/sor-rag-chat",
       "tags": ["RAG", "React.js", "Next.js", "DataStax"]
     },
@@ -24,7 +24,7 @@
     {
       "title": "Monte-Carlo Raytracing",
       "description": "The project applies Monte Carlo integration and ray-tracing techniques to calculate complex light interactions within a 3D scene.",
-      "imageUrl": "placerholder.svg",
+      "imageUrl": "https://raw.githubusercontent.com/olvard/raytracing/main/progress/gitrender.png",
       "link": "https://github.com/olvard/raytracing",
       "tags": ["C++", "Linear Algebra", "OOP"]
     }

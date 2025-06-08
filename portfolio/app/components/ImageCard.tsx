@@ -18,7 +18,7 @@ const ImageCard = ({imageUrl, link, tags}: ImageCardProps) => {
           alt="Crossing the uncanny valley of conversational voice"
           width={600}
           height={400}
-          className="rounded-2xl"
+          className="rounded-2xl max-h-100"
         />
 
       <TagBar tags={tags}/>

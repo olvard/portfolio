@@ -1,3 +1,4 @@
+import Image from 'next/image';
 
 type TagBarProps = {
 	tags: string[];
@@ -10,6 +11,8 @@ const TagBar = ({ tags }: TagBarProps) => {
 		{tags.map((tag: string, idx: number) => (
 			<span key={tag + idx} className='bg-gray-100 rounded-xl px-3 mr-5 font-light'>{tag}</span>
 		))}
+
+		<Image src="github.svg" alt="github logo" width={20} height={20} className='absolute right-5'/>
 		  
         </div>	
 	)
