@@ -4,8 +4,8 @@
       "title": "Retrieval Augmented Generation Chatbot",
       "description": "Chatbot using GPT-4 and a RAG system for specific context.",
       "imageUrl": "https://raw.githubusercontent.com/olvard/sor-rag-chat/refs/heads/main/home.png",
-      "link": "https://github.com/olvard/sor-rag-chat",
-      "tags": ["RAG", "React.js", "Next.js", "Typescript"]
+      "link": "https://sor-rag-chat.vercel.app/",
+      "tags": ["React.js", "Next.js", "Typescript"]
     },
     {
       "title": "Facemorph",
@@ -27,6 +27,21 @@
       "imageUrl": "https://raw.githubusercontent.com/olvard/raytracing/main/progress/gitrender.png",
       "link": "https://github.com/olvard/raytracing",
       "tags": ["C++", "Linear Algebra", "OOP"]
+    },
+    {
+      "title": "Legionen.nu",
+      "description": "A website for the student association Legionen at Linköping University.",
+      "imageUrl": "https://raw.githubusercontent.com/olvard/legionennu/refs/heads/main/Screenshot%202025-06-13%20at%2022.28.11.png",
+      "link": "https://legionennu.vercel.app/",
+      "tags": ["Next.js", "React.js", "Tailwind CSS"]
+    },
+    {
+      "title": "Star Wars Interactive Visualization",
+      "description": "An interactive visualization of the Star Wars characters using D3.js.",
+      "imageUrl": "https://raw.githubusercontent.com/olvard/starwars-infovis/refs/heads/main/Screenshot%202025-06-13%20at%2022.37.16.png",
+      "link": "https://olvard.github.io/starwars-infovis/",
+      "tags": ["D3.js", "JavaScript"]
+
     }
   ]
 }

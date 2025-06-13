@@ -12,8 +12,8 @@ import "./globals.css";
 // });
 
 export const metadata: Metadata = {
-  title: "Oliver Lundins Portfolio",
-  description: "",
+  title: "Oliver Lundin",
+  description: "Oliver Lundin's personal portfolio website showcasing projects, resume, and contact information.",
 };
 
 export default function RootLayout({

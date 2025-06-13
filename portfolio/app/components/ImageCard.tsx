@@ -11,14 +11,15 @@ type ImageCardProps = {
 
 const ImageCard = ({imageUrl, link, tags}: ImageCardProps) => {
 	return (
-    <Link href={link} target="_blank" className="block max-w-xl">
-      <div className="relative group rounded-sm overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300">
+    <Link href={link} target="_blank" className="block max-w-150">
+      <div className="relative w-full h-78 group rounded-sm overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300">
         <Image
           src={imageUrl}
-          alt="Crossing the uncanny valley of conversational voice"
-          width={600}
-          height={400}
-          className="rounded-sm max-h-100"
+          alt="project image"
+          // width={600}
+          // height={400}
+          fill
+          className="object-cover rounded-sm max-h-100"
         />
 
       <TagBar tags={tags}/>
