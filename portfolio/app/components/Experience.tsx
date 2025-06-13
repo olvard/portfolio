@@ -16,13 +16,13 @@ const Experience = ({ title, organization, date, description, tags, link }: Expe
 		<div className="rounded-sm my-5 md:max-w-150 space-y-2 hover:bg-white p-4">
 			<h1 className="text-xl">{title}</h1>
 			<div className="flex flex-row justify-between">
-				<p className="text-gray-500">{organization}</p>
-				<p className="text-gray-500">{date}</p>
+				<p className="text-gray-500 font-sans">{organization}</p>
+				<p className="text-gray-500 font-sans">{date}</p>
 			</div>
-			<p className="font-light">{description}</p>
+			<p className="font-light font-sans text-justify">{description}</p>
 			<div className="flex flex-row flex-wrap">
 				{tags.map((tag: string, idx: number) => (
-					<span key={tag + idx} className="bg-gray-200 mr-3 px-3 rounded-xl font-light">
+					<span key={tag + idx} className="bg-gray-200 mr-3 px-3 rounded-xl font-light font-sans">
 						{tag}
 					</span>
 				))}

@@ -8,7 +8,9 @@ const Contact = () => {
 
 			<NavBar/>
 
-			<ContactCard />
+			<div className="md:w-5/7">
+				<ContactCard />	
+			</div>
 
 		</main>
 	)

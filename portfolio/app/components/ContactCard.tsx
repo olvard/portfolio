@@ -13,7 +13,7 @@ const ContactCard = () => {
 				{/* Left Side (Text Info) */}
 				<div className="flex flex-col gap-2 z-10">
 				<h1 className="text-3xl font-semibold text-gray-800">Oliver Lundin</h1>
-				<Link href="mailto:oliver.lundin@live.se" className="text-gray-500 text-lg hover:underline">
+				<Link href="mailto:oliver.lundin@live.se" className="text-gray-500 text-lg hover:underline font-sans">
 					oliver.lundin@live.se
 				</Link>
 				</div>

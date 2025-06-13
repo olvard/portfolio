@@ -21,7 +21,7 @@ const NavBar = () => {
         <li key={name}>
           <Link
             href={href}
-            className={`transition-all duration-150 hover:text-black hover:scale-105 ${
+            className={`font-sans transition-all duration-150 hover:text-black hover:scale-105 ${
               pathname === href ? 'text-black' : 'text-gray-500'
             }`}
           >
@@ -35,7 +35,7 @@ const NavBar = () => {
       </li>
       <li>
         <Link
-          className={`transition-all duration-150 hover:text-black hover:scale-105 ${
+          className={`font-sans transition-all duration-150 hover:text-black hover:scale-105 ${
         pathname === '/contact' ? 'text-black' : 'text-gray-500'
           }`}
           href="/contact"
