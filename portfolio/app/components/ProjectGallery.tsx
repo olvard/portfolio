@@ -13,7 +13,7 @@ type Project = {
 
 const ProjectGallery = () => {
 	return (
-		<div className="flex flex-col">
+		<div className="flex flex-col ">
 			{projectData.projects.map((project: Project, idx: number) => (
 				<Project 
 					title={project.title} 
