@@ -6,6 +6,7 @@ import About from "./components/About";
 import ResumeList from "./components/ResumeList";
 import ContactCard from "./components/ContactCard";
 import useIsMobile from "./hooks/useIsMobile";
+import PageWrapper from "./components/PageWrapper";
 
 export default function Home() {
   const isMobile = useIsMobile();
@@ -31,10 +32,12 @@ export default function Home() {
       <div className="w-screen h-screen flex flex-row">
         <NavBar />
         <div className="w-5/7 h-screen bg-gray-100 overflow-scroll">
-          <About />
-          <div id="projects">
-            <ProjectGallery />
-          </div>
+          <PageWrapper>
+            <About />
+            <div id="projects">
+              <ProjectGallery />
+            </div>
+          </PageWrapper>
           <footer className="flex items-center justify-center max-w-150 h-64">
             <p className="p-4 font-light text-gray-300">©Oliver Lundin</p>
           </footer>
