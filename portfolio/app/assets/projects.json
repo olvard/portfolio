@@ -2,28 +2,28 @@
   "projects": [
     {
       "title": "Retrieval Augmented Generation Chatbot",
-      "description": "A personalized AI chatbot for the Sunrise of the Reaping book built for my gf.",
+      "description": "Chatbot using GPT-4 and a RAG system for specific context.",
       "imageUrl": "https://raw.githubusercontent.com/olvard/sor-rag-chat/refs/heads/main/home.png",
       "link": "https://github.com/olvard/sor-rag-chat",
       "tags": ["RAG", "React.js", "Next.js", "Typescript"]
     },
     {
       "title": "Facemorph",
-      "description": "Facemorphing using Generative Adversarial Networks(GANs)",
-      "imageUrl": "placerholder.svg",
+      "description": "Facemorphing using Generative Adversarial Networks (GANs)",
+      "imageUrl": "https://raw.githubusercontent.com/olvard/facemorph/refs/heads/main/Screenshot%202025-06-13%20at%2015.16.36.png",
       "link": "https://github.com/olvard/facemorph",
       "tags": ["Generative AI", "GAN", "Python"]
     },
     {
       "title": "Fractal Explorer",
       "description": "Fractal exploration tool using WebGL ",
-      "imageUrl": "placerholder.svg",
-      "link": "https://github.com/olvard/fractals",
+      "imageUrl": "https://raw.githubusercontent.com/olvard/fractals/refs/heads/main/Screenshot%202025-01-06%20at%2014.23.49.png",
+      "link": "https://olvard.github.io/fractals/",
       "tags": ["WebGL", "JavaScript", "GLSL"]
     },
     {
       "title": "Monte-Carlo Raytracing",
-      "description": "The project applies Monte Carlo integration and ray-tracing techniques to calculate complex light interactions within a 3D scene.",
+      "description": "Monte Carlo integration and ray-tracing techniques to calculate complex light interactions within a 3D scene.",
       "imageUrl": "https://raw.githubusercontent.com/olvard/raytracing/main/progress/gitrender.png",
       "link": "https://github.com/olvard/raytracing",
       "tags": ["C++", "Linear Algebra", "OOP"]

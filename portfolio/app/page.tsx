@@ -21,12 +21,12 @@ export default function Home() {
           <div id="projects">
           <ProjectGallery />
           </div>
+          <footer className="flex items-center justify-center max-w-150">
+            <p className="p-4 font-light text-gray-300">©Oliver Lundin</p>
+          </footer>
 
         </div>
-        
-        
       </div>
-
     </main>
   )
 }

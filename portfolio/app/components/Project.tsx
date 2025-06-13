@@ -12,9 +12,9 @@ type ProjectProps = {
 const Project = ({ title, description, image, link, tags }: ProjectProps) => {
 
 	return(
-		<div className="my-10">
+		<div className="my-5">
 			<h1 className="text-2xl font-medium">{title}</h1>
-			<p className="my-5 max-w-150">{description}</p>
+			<p className="my-3 max-w-150 font-light">{description}</p>
 
 			<ImageCard imageUrl={image} link={link} tags={tags}/>
 

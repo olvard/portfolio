@@ -5,14 +5,16 @@
       "organization": "Swedish Defence Research Agency (FOI)",
       "date": "Jan 2025 – Present",
       "description": "Researching the potential of generative AI for creating camouflage patterns. Working with large generative models like Stable Diffusion using the Diffusers library and PyTorch.",
-      "tags": ["AI", "Generative Models", "PyTorch"]
+      "tags": ["AI", "Generative Models", "PyTorch"],
+      "link": "https://www.foi.se/"
     },
     {
       "title": "QA Engineer Intern",
       "organization": "Devant",
       "date": "Jun 2024 – Aug 2024",
       "description": "Worked with synthetic data and developed algorithms to detect artifacts and defects. Developed a QA system, helping Devant improve data quality and gain new tools for searching through their datasets. Used Python and image processing libraries such as OpenCV.",
-      "tags": ["QA", "Python", "Image Processing"]
+      "tags": ["QA", "Python", "Image Processing"],
+      "link": "https://www.devant.ai/"
     },
     {
       "title": "Web Developer",
@@ -26,7 +28,8 @@
       "organization": "Linköping University",
       "date": "Jan 2024 – Mar 2024",
       "description": "Assisted students in the course 'Introduction to Web Programming'. Topics included JavaScript, Node.js, and REST APIs.",
-      "tags": ["JavaScript", "Node.js", "REST APIs"]
+      "tags": ["JavaScript", "Node.js", "REST APIs"],
+      "link": "https://studieinfo.liu.se/en/kurs/TNM115/vt-2025"
     },
     {
       "title": "Programming Mentor",
