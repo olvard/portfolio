@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from 'next/navigation';
 
+
 const NavBar = () => {
 
 	const pathname = usePathname();
@@ -11,7 +12,6 @@ const NavBar = () => {
 		{ name: 'About me', href: '/' },
 		{ name: 'Projects', href: '/#projects' },
 		{ name: 'Resume', href: '/resume' },
-		{ name: 'Contact', href: '' }, 
 	];
 
 	return(
@@ -27,10 +27,21 @@ const NavBar = () => {
           >
             {name}
           </Link>
+          
         </li>
       ))}
       <li>
         <hr className="my-2 border-t-1 border-gray-300" />
+      </li>
+      <li>
+        <Link
+          className={`transition-all duration-150 hover:text-black hover:scale-105 ${
+        pathname === '/contact' ? 'text-black' : 'text-gray-500'
+          }`}
+          href="/contact"
+        >
+          Contact
+        </Link>
       </li>
     </ul>
        </div>

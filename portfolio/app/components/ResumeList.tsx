@@ -14,7 +14,7 @@ const ResumeList = () => {
 	};
 
 	return(
-		<div className="flex flex-col mt-45">
+		<div className="flex flex-col mt-40">
 			<h1 className="text-5xl">Experience</h1>
 			{experienceData.experiences.map((experience: Experience, idx: number) => (
 			<Experience 

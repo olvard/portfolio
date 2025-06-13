@@ -1,4 +1,5 @@
-//import Link from "next/link";
+
+
 import ProjectGallery from "./components/ProjectGallery";
 import NavBar from "./components/NavBar";
 import About from "./components/About";
@@ -7,22 +8,25 @@ import About from "./components/About";
 
 export default function Home() {
   return (
-    <main className="w-screen h-screen flex flex-row">
+    <main className="flex flex-col">
+      <div className="w-screen h-screen flex flex-row">
 
-      <NavBar/>
+        <NavBar/>
 
-      <div className="w-5/7 h-screen bg-gray-100 overflow-scroll">
+        <div className="w-5/7 h-screen bg-gray-100 overflow-scroll">
 
 
-        <About/>
+          <About/>
 
-        <div id="projects">
-        <ProjectGallery />
+          <div id="projects">
+          <ProjectGallery />
+          </div>
+
         </div>
-
+        
+        
       </div>
-      
-      
+
     </main>
   )
 }
