@@ -34,14 +34,6 @@
       "imageUrl": "https://raw.githubusercontent.com/olvard/legionennu/refs/heads/main/Screenshot%202025-06-13%20at%2022.28.11.png",
       "link": "https://legionennu.vercel.app/",
       "tags": ["Next.js", "React.js", "Tailwind CSS"]
-    },
-    {
-      "title": "Star Wars Interactive Visualization",
-      "description": "An interactive visualization of the Star Wars characters using D3.js.",
-      "imageUrl": "https://raw.githubusercontent.com/olvard/starwars-infovis/refs/heads/main/Screenshot%202025-06-13%20at%2022.37.16.png",
-      "link": "https://olvard.github.io/starwars-infovis/",
-      "tags": ["D3.js", "JavaScript"]
-
     }
   ]
 }
