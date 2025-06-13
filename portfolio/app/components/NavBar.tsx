@@ -15,7 +15,7 @@ const NavBar = () => {
 	];
 
 	return(
-		<div className="w-2/7 h-screen bg-gray-100 flex justify-center items-start ">
+		<div className="w-2/7 h-screen bg-gray-100 flex justify-center items-start ml-50">
 		 <ul className="mt-50">
       {navItems.map(({ name, href }) => (
         <li key={name}>

@@ -3,7 +3,7 @@ import NavBar from "../components/NavBar"
 
 const Resume = () => {
 	return(
-		<main className="w-screen h-screen flex flex-row">
+		<main className="flex flex-row w-screen h-screen justify-center">
 
 			<NavBar/>
 
