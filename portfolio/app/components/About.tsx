@@ -4,7 +4,7 @@ const About = () => {
 	return(
 		<>
 
-		<h1 className="md:mt-40 mt-20 text-5xl bg-gradient-to-r from-gray-500 via-gray-100 to-gray-800 bg-clip-text text-transparent">
+		<h1 className="md:mt-40 mt-20 text-5xl">
 			Oliver Lundin
 		</h1>
 	
