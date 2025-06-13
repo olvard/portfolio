@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
 
 @import "tailwindcss";
 
@@ -12,6 +13,7 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
 }
 
 @media (prefers-color-scheme: dark) {

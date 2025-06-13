@@ -5,7 +5,7 @@
       "description": "A personalized AI chatbot for the Sunrise of the Reaping book built for my gf.",
       "imageUrl": "https://raw.githubusercontent.com/olvard/sor-rag-chat/refs/heads/main/home.png",
       "link": "https://github.com/olvard/sor-rag-chat",
-      "tags": ["RAG", "React.js", "Next.js", "DataStax"]
+      "tags": ["RAG", "React.js", "Next.js", "Typescript"]
     },
     {
       "title": "Facemorph",
