@@ -1,7 +1,6 @@
 "use client"
 
 import ProjectGallery from "./components/ProjectGallery";
-import NavBar from "./components/NavBar";
 import About from "./components/About";
 import ResumeList from "./components/ResumeList";
 import useIsMobile from "./hooks/useIsMobile";
@@ -30,8 +29,7 @@ export default function Home() {
   return (
     <main className="flex flex-col">
       <div className="w-screen h-screen flex flex-row">
-        <NavBar />
-        <div className="w-5/7 h-screen bg-surface overflow-scroll">
+        <div className="w-full h-screen bg-surface overflow-scroll">
           <PageWrapper>
             <About />
             <div id="projects">
