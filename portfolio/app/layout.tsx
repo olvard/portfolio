@@ -13,7 +13,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Oliver Lundin",
-  description: "Oliver Lundin's personal portfolio website showcasing projects, resume, and contact information.",
+  description: "Oliver Lundin's personal portfolio website showcasing projects and experience.",
 };
 
 export default function RootLayout({
