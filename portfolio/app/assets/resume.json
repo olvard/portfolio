@@ -1,42 +1,85 @@
 {
   "experiences": [
     {
-      "title": "Master Thesis",
+      "title": "Consultant",
+      "organization": "Netlight",
+      "date": "Jan 2026 – Present",
+      "description": "",
+      "tags": [
+        "Data",
+        "AI",
+        "Consulting"
+      ],
+      "link": "https://www.netlight.com/"
+    },
+    {
+      "title": "Data Analyst",
+      "organization": "Astrada",
+      "date": "Aug 2025 – Jan 2026",
+      "description": "",
+      "tags": [
+        "Data Analysis",
+        "SQL",
+        "Data Visualization"
+      ],
+      "link": "https://www.astrada.se/"
+    },
+    {
+      "title": "AI Engineer",
       "organization": "Swedish Defence Research Agency (FOI)",
-      "date": "Jan 2025 – Present",
-      "description": "Researching the potential of generative AI for creating camouflage patterns. Working with large generative models like Stable Diffusion using the Diffusers library and PyTorch.",
-      "tags": ["AI", "Generative Models", "PyTorch"],
+      "date": "Jan 2025 – Jun 2025",
+      "description": "",
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Computer Vision"
+      ],
       "link": "https://www.foi.se/"
     },
     {
-      "title": "QA Engineer Intern",
+      "title": "Machine Learning Engineer",
       "organization": "Devant",
       "date": "Jun 2024 – Aug 2024",
-      "description": "Worked with synthetic data and developed algorithms to detect artifacts and defects. Developed a QA system, helping Devant improve data quality and gain new tools for searching through their datasets. Used Python and image processing libraries such as OpenCV.",
-      "tags": ["QA", "Python", "Image Processing"],
+      "description": "",
+      "tags": [
+        "QA",
+        "Python",
+        "Image Processing"
+      ],
       "link": "https://www.devant.ai/"
     },
     {
       "title": "Web Developer",
       "organization": "Welcome Committee Lintek",
       "date": "Dec 2023 – Dec 2024",
-      "description": "Developed and maintained the website for 120 new students in my program. Integrated Google APIs to display live calendars on the site and OpenAI API for a chatbot. Built with React and Next.js.",
-      "tags": ["React", "Next.js", "APIs"]
+      "description": "",
+      "tags": [
+        "React",
+        "Next.js",
+        "APIs"
+      ]
     },
     {
       "title": "Lab Assistant",
       "organization": "Linköping University",
       "date": "Jan 2024 – Mar 2024",
-      "description": "Assisted students in the course 'Introduction to Web Programming'. Topics included JavaScript, Node.js, and REST APIs.",
-      "tags": ["JavaScript", "Node.js", "REST APIs"],
+      "description": "",
+      "tags": [
+        "JavaScript",
+        "Node.js",
+        "REST APIs"
+      ],
       "link": "https://studieinfo.liu.se/en/kurs/TNM115/vt-2025"
     },
     {
       "title": "Programming Mentor",
       "organization": "Linköping University",
       "date": "Sep 2022 – May 2023",
-      "description": "Chair of the student-run programming support initiative on Norrköping campus. Helped students from various programs with programming support.",
-      "tags": ["Mentoring", "Leadership"]
+      "description": "",
+      "tags": [
+        "Mentoring",
+        "Leadership"
+      ]
     }
   ]
 }
