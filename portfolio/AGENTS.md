@@ -6,15 +6,15 @@ This is Oliver Lundin's personal portfolio site. It is a Next.js 15 application 
 
 The application has one route:
 
-- `/` - About section and project gallery on desktop; About and experience content on mobile.
+- `/` - About and experience content rendered in the mobile layout at all viewport sizes.
 
 ## Repository Layout
 
 - `app/` - App Router source, global styles, hooks, routes, components, and local content data.
 - `app/components/` - Shared UI components used across routes.
-- `app/assets/projects.json` - Project content displayed by `ProjectGallery`.
+- `app/assets/projects.json` - Project content retained for the dormant project components.
 - `app/assets/resume.json` - Experience content displayed by `ResumeList`.
-- `app/hooks/` - Client-side React hooks such as `useIsMobile`.
+- `app/hooks/` - Client-side React hooks, when needed.
 - `public/` - Static images and SVG social icons referenced with root-relative paths.
 - `next.config.ts` - Next.js configuration, including allowed remote image hosts.
 - `eslint.config.mjs` - ESLint flat configuration based on Next core web vitals and TypeScript rules.
@@ -50,11 +50,9 @@ There is currently no test script or test suite. For changes affecting rendering
 
 ## Client Components and Responsive Behavior
 
-- `app/page.tsx`, `NavBar`, and `PageWrapper` are client components. Keep browser APIs and Framer Motion usage inside client components.
-- `useIsMobile` checks `window.innerWidth` and uses a 1080px breakpoint. Changes to the home page must account for its separate desktop and mobile render branches.
-- The mobile home currently omits the project gallery intentionally in commented JSX. Do not assume desktop sections appear on mobile without checking the intended design.
-- `NavBar` uses `usePathname`; hash fragments are not included in the pathname, so section-link active-state logic needs special handling if changed.
-- Prefer responsive Tailwind classes for layout changes. Be careful with existing custom-looking utilities such as `w-5/7`, `w-2/7`, `h-78`, and `ml-45`; confirm the resulting CSS when modifying those layouts.
+- The home page always renders the mobile layout and does not use a viewport-size hook or a separate desktop render branch.
+- The project gallery components are currently dormant and are not rendered by the home page.
+- Prefer responsive Tailwind classes only when a component is intentionally responsive. Be careful with existing custom-looking utilities such as `h-78`; confirm the resulting CSS when modifying those layouts.
 
 ## Content and Asset Changes
 

@@ -13,7 +13,7 @@ type ExperienceProps = {
 
 const Experience = ({ title, organization, date, description, tags, link }: ExperienceProps) => {
 	const content = (
-		<div className="rounded-sm my-5 md:max-w-150 space-y-2 hover:border hover:border-accent-orange p-4">
+		<div className="rounded-sm my-5 max-w-150 space-y-2 hover:border hover:border-accent-orange p-4">
 			<h1 className="text-xl">{title}</h1>
 			<div className="flex flex-row justify-between">
 				<p className="text-accent-yellow font-sans">{organization}</p>
