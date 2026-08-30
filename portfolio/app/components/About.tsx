@@ -15,7 +15,12 @@ const About = () => {
 			<p className="mt-5 max-w-150 font-sans font-light">
 				Software Engineer based in Stockholm, Sweden.</p>
 			{/* <hr className="mt-20 mb-10 w-full max-w-150 border-t-1 border-surface-subtle" /> */}
-		</section>
+			<div className="w-full max-w-150 flex flex-row items-center justify-center gap-3">
+				<p className="mt-5 max-w-150 font-sans text-accent-red">oliver.lundin@live.se</p>
+				<a className="mt-5 max-w-150 font-sans text-accent-red" href="https://github.com/olvard">GitHub</a>
+				<a className="mt-5 max-w-150 font-sans text-accent-red" href="https://www.linkedin.com/in/oliverlundin/">LinkedIn</a>
+			</div>
+		</section >
 	)
 }
 
